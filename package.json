@@ -1,0 +1,28 @@
+{
+  "name": "react_querystring_filter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/happydhKim/react_querystring_filter",
+  "author": "happydhKim <happytime870616@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "html-loader": "^1.3.2",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack": "^5.12.3",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
