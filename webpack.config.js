@@ -1,4 +1,3 @@
-
 const Path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -14,7 +13,6 @@ module.exports = {
   resolve: {
     alias: {
       '@': Path.resolve(__dirname, './src'),
-      '@@': Path.resolve(__dirname, './public/images'),
     },
     extensions: ['.mjs', '.js', '.jsx', '.ts', '.tsx'],
   },
