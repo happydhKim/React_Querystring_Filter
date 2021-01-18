@@ -3,13 +3,19 @@ import {
   BrowserRouter as Router,
   Switch,
 } from 'react-router-dom';
+import {
+  RecoilRoot,
+} from 'recoil';
+import {Main} from './pages';
 
 const App: React.FC = () => (
-  <Router>
-    <Switch>
-      <div>Setting Test</div>
-    </Switch>
-  </Router>
+  <RecoilRoot>
+    <Router>
+      <Switch>
+        <Main />
+      </Switch>
+    </Router>
+  </RecoilRoot>
 );
 
 export default App;
